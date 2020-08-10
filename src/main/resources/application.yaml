@@ -1,0 +1,37 @@
+spring:
+  profiles:
+    active: prod
+
+---
+com:
+  sarfo:
+      connection:
+        database-name: api-simulator
+        user: root
+        password: root      
+        host: mongodb://${com.sarfo.connection.user}:${com.sarfo.connection.password}@localhost:27017
+      jwt:
+        secret: sarfo@9388492
+        expiration-time: 864_000_000
+        token-prefix: "Bearer "
+        header-string: "Authorization"
+        issuer: 'sarfo-app'
+spring:
+  profiles: local
+
+---
+spring:
+  profiles: prod
+com:
+  sarfo:
+    connection:
+      database-name: api-simulator
+      user: root
+      password: root
+      host: mongodb://${com.sarfo.connection.user}:${com.sarfo.connection.password}@mongo
+    jwt:
+      secret: sarfo@9388492
+      expiration-time: 864_000_000
+      token-prefix: "Bearer "
+      header-string: "Authorization"
+      issuer: 'sarfo-app'

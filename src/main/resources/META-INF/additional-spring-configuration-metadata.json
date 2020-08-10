@@ -1,0 +1,48 @@
+{
+  "properties": [
+    {
+      "name": "com.sarfo.connection.database-name",
+      "type": "java.lang.String",
+      "description": "A description for 'com.sarfo.connection.database-name'"
+    },
+    {
+      "name": "com.sarfo.connection.user",
+      "type": "java.lang.String",
+      "description": "A description for 'com.sarfo.connection.user'"
+    },
+    {
+      "name": "com.sarfo.connection.password",
+      "type": "java.lang.String",
+      "description": "A description for 'com.sarfo.connection.password'"
+    },
+    {
+      "name": "com.sarfo.connection.host",
+      "type": "java.lang.String",
+      "description": "A description for 'com.sarfo.connection.host'"
+    },
+    {
+      "name": "com.sarfo.jwt.expiration-time",
+      "type": "java.lang.String",
+      "description": "Description for com.sarfo.jwt.expiration-time."
+    },
+    {
+      "name": "com.sarfo.jwt.secret",
+      "type": "java.lang.String",
+      "description": "Description for com.sarfo.jwt.secret."
+    },
+    {
+      "name": "com.sarfo.jwt.token-prefix",
+      "type": "java.lang.String",
+      "description": "Description for com.sarfo.jwt.token-prefix."
+    },
+    {
+      "name": "com.sarfo.jwt.header-string",
+      "type": "java.lang.String",
+      "description": "Description for com.sarfo.jwt.header-string."
+    },
+    {
+      "name": "com.sarfo.jwt.issuer",
+      "type": "java.lang.String",
+      "description": "Description for com.sarfo.jwt.issuer."
+    }
+  ]}
